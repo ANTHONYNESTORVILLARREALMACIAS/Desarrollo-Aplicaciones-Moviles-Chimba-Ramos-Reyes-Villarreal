@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pantalla/primos_pantalla.dart';
+import '../pantalla/primos_pantalla.dart';
 
 // Punto de entrada de la aplicación
 void main() {
