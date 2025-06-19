@@ -4,6 +4,8 @@ Una modificacion se tiene que realizar dentro del archivo:
 C:\Users\"Usuaria"\AppData\Local\Pub\Cache\hosted\pub.dev\google_api_headers-1.6.0\android\build.gradle
 
 en el apartado de android se tiene que agregar el namespace y el kotlinOptions:
+
+
 android {
     compileSdkVersion 32
 
