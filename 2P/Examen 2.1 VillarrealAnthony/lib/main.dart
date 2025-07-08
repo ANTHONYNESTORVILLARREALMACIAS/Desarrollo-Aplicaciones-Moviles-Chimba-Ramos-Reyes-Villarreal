@@ -13,7 +13,7 @@ void main() {
         ChangeNotifierProvider(create: (_) => MainViewModel()),
         ChangeNotifierProvider(create: (_) => AgeCalculatorViewModel()),
         ChangeNotifierProvider(create: (_) => TriangleViewModel()),
-        Provider(create: (_) => ApiConsumerViewModel()),
+        ChangeNotifierProvider(create: (_) => ApiConsumerViewModel()), // Asegúrate de esta línea
       ],
       child: const MyApp(),
     ),
